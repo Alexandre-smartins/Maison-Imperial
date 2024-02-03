@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background: black;
+    height: 100vh;
+}
+   
+    body *{
+        font-family: 'Inter Tight', sans-serif;
+        color: #fff;
+    }
+
+#logo img{
+    height: 200px;
+    
+
+}
+#container{
+    width: 100%;
+    max-width: 588px;
+    margin:56px auto 0px; 
+    padding: 0 24px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0 24px;
+}
+
+ul li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 16px 24px;
+
+backdrop-filter: blur(4px);
+-webkit-backdrop-filter: blur(4px);
+background-color: rgb(20, 20, 19);
+border: 1px solid white;
+border-radius: 10px;
+text-decoration: none;
+font-weight: 500; 
+}
+    
